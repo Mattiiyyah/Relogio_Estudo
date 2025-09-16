@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Temporizador </title>
+
+    <!-- link de acesso ao boodstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- link de acesso ao css-->
+     <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- cabecalho -->
+    <header class="container my-3">
+       <nav class="navbar container rounded-4 shadow-lg">
+          <div class="container-fluid d-flex justify-content-center">
+            <span class="navbar-text text-uppercase text-light">
+                Crônometro
+            </span>
+          </div>
+        </nav>
+    </header>
+    <!-- fim do cabecalho -->
+
+    <!-- inicio da seção -->
+    <section class="mt-5 container">
+      <div class="caixa-principal rounded-4" style="border: 1px">
+        <div class="caixa-relogio mb-5 text-center">
+            <h1 class="display-5"><u> TIMER </u></h1>
+            <p class="relogio mt-3 display-2"><strong>00:00:00</strong></p>
+        </div>
+
+        <div class="mb-4 text-center">
+            <label for="tempoInput" class="form-label fw-bold">Digite o tempo (em minutos):</label>
+            <input type="number" class="form-control text-center w-50 mx-auto" id="tempoInput" min="1" placeholder="Ex: 5">
+        </div>
+
+
+        <div class="text-center">
+            <button type="button" class="iniciar btn btn-primary mx-2">Iniciar</button>
+            <button type="button" class="pausar btn btn-secondary mx-2">Pausar</button>
+            <button type="button" class="resetar btn btn-danger mx-2">Resetar</button>
+        </div>
+       </div>
+    </section>
+    <!-- fim da seção -->
+
+
+    <script src="assets/js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <!-- JS opcional-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
