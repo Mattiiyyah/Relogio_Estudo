@@ -2,7 +2,7 @@
 
 Um temporizador de contagem regressiva simples e funcional, ideal para gerenciar o tempo de estudo, trabalho ou qualquer outra atividade que exija foco e controle de tempo. A interface é limpa e intuitiva, permitindo que o usuário insira o tempo desejado em minutos e controle o cronômetro com facilidade.
 
-![Pré-visualização do Projeto](https://i.imgur.com/URL_DA_IMAGEM.png) ## ✨ Funcionalidades
+## ✨ Funcionalidades
 
 * **Definir Tempo:** O usuário pode inserir um valor em minutos para iniciar a contagem regressiva.
 * **Iniciar:** Começa a contagem a partir do tempo definido.
