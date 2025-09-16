@@ -26,13 +26,46 @@ Este projeto foi construído utilizando tecnologias web fundamentais:
 
 O projeto está organizado da seguinte forma:
 
+Parceiro de Programacao
+
+Mostrar raciocínio
+Ah, agora sim, estou vendo exatamente o que está acontecendo!
+
+O problema mudou. Você conseguiu criar o bloco de código corretamente (parabéns!), mas os caracteres usados para desenhar a árvore no seu editor são diferentes dos que criam aquele visual de "galhos".
+
+Veja a diferença:
+
+Seu código usa: Hífens (-), barras (|) e barras invertidas (\).
+
+O código que eu sugeri usa: Caracteres especiais de desenho de linha (├──, │, └──).
+
+Esses caracteres especiais só funcionam se você os copiar e colar. É muito difícil digitá-los manualmente.
+
+A Solução (Agora vai!)
+A maneira mais simples é apagar toda a seção da estrutura de arquivos no seu código e copiar e colar este bloco inteiro que vou te passar. Ele já tem os caracteres corretos.
+
+Copie este código e substitua o seu:
+
+Markdown
+
+## 📂 Estrutura dos Arquivos
+
+O projeto está organizado da seguinte forma:
+
 Relogio_Estudo/
+
 ├── assets/
+
 │   ├── css/
+
 │   │   └── style.css   # Arquivo de estilos personalizados
+
 │   └── js/
-│       └── script.js   # Lógica do temporizador
+
+│   └── script.js   # Lógica do temporizador
+
 ├── index.html          # Arquivo principal da aplicação
+
 └── README.md           # Documentação do projeto
 
 ## 📄 Como Utilizar
