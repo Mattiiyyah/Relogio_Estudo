@@ -24,13 +24,8 @@ function iniciarRelogio() {
 
         if (tempo === 0) {
             const valor = Number(inputTempo.value);
-        
-            if (!valor || valor <= 0) {
-               alert('Digite um tempo válido!');
-               return;
-            }
 
-        tempo = valor * 60; // minutos pra segundos
+            tempo = valor * 60; // minutos pra segundos
         }
 
         tempo--;
